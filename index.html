@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Gerenciamento de Usuários</title>
+</head>
+<body>
+  <h1>Gerenciamento de Usuários</h1>
+
+  <div>
+    <label for="nome">Nome (para Adicionar, Atualizar):</label>
+    <input type="text" id="nome" name="nome"><br>
+
+    <label for="email">Email (para Adicionar, Buscar, Atualizar, Deletar):</label>
+    <input type="email" id="email" name="email" required><br>
+  </div>
+
+  <div id="botoes">
+    <button onclick="adicionarUsuario()">Adicionar Usuário</button>
+    <button onclick="buscarUsuario()">Buscar Usuário</button>
+    <button onclick="atualizarUsuario()">Atualizar Nome</button>
+    <button onclick="deletarUsuario()">Deletar Usuário</button>
+  </div>
+
+  <label for="resultado">Resultado:</label>
+  <textarea id="resultado" readonly></textarea>
+  
+  <script src="rota.js" defer></script>
+
+</body>
+</html>
+
