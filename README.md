@@ -20,3 +20,6 @@ Repositório criado para os estudos da disciplina **Desenvolvimento Web II**, co
 ## 🧰 Autores:
 - Bruna Lopez 
 - Renata Lima
+
+
+https://renata21lima06.github.io/OOP-Sequelize/
